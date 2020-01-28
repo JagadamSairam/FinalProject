@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 101,
+      "name": "Sairam",
+      "email": "jagadamsairam@gmail.com",
+      "phone": 9876533247
+    },
+    {
+      "id": 102,
+      "name": "malavika",
+      "email": "malavika@gmail.com",
+      "phone": 9647638267
+    },
+    {
+      "id": 103,
+      "name": "Sindhu",
+      "email": "Sindhu@gmail.com",
+      "phone": 97645372947
+    }
+  ]
+}

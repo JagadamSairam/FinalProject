@@ -1,0 +1,40 @@
+<div class="container-fluid">
+    <nav class="navbar navbar-expand-md navbar-light bg-dark">
+     
+      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+      <ul class="navbar-nav text-center">
+        <li class="nav-item" style="padding-left: 20px;"><a routerLink="#">Home</a></li>
+        <li class="nav-item" style="padding-left: 20px;"><a routerLink="registration">NewUser</a></li>
+        <li class="nav-item" style="padding-left: 20px;"><a routerLink="adminhome" >About</a></li>
+        <li class="nav-item" style="padding-left: 30px;"><a routerLink='userlist' class="btn btn-primary">USERSLIST</a></li>
+        <div class="container">
+          <li class="nav-item" ><a routerLink='login' class="btn btn-primary">Login</a></li>
+        </div>
+      </ul>
+    </nav>
+  </div>
+<br><br>
+<br>
+
+    <table border="2" style="padding-top: 20%;">
+      <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>EMAIL</th>
+        <th>PHONE</th>
+        <th>Actions</th>
+      </tr>
+      <tr *ngFor = "let user of users">
+        <td>{{user.id}}</td>
+        <td>{{user.name}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.phone}}</td>
+        <!-- <td><button class="btn btn-danger"(click)="deleteUser(user)">Delete</button></td> -->
+      </tr>
+    </table>
+    <footer class="fixed-footer">
+        <div class="footer-copyright text-center py-3 bg-dark text-white mb-3">© 2020 Copyright:
+          Jagadam
+        </div></footer>

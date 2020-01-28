@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+  crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+  crossorigin="anonymous"></script>
+
+  <style>
+  .footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#6cf;
+}
+  .bg{
+    width: 100%;
+    height: 100%;
+     background: url('../assets/image1') no-repeat center; 
+    background-size: 100% 100%;
+    background-position: top center;
+  }
+</style>
+</head>
+<body class="bg"> 
+  
+ 
+<div class="jumbotron" style="padding: 1% ;  background: skyblue; overflow: -moz-hidden-unscrollable;">
+  <h1 class="text-center">Stock Market Exchange</h1>
+</div>
+<!--
+<div class="container-fluid">
+  <nav class="navbar navbar-expand-md navbar-light bg-dark"> -->
+   
+    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> -->
+    <!-- <ul class="navbar-nav text-center">
+      <li class="nav-item"><a href="#">Home</a></li>
+      <li class="nav-item text-center"><a href="userform">New User</a></li>
+      <li class="nav-item"><a href="about.html" target="_blank">About</a></li>
+      <div class="container">
+        <li><button type="button" style="float: right;" class="btn btn-primary">Login</button></li>
+      </div>
+    </ul>
+  </nav>
+</div>
+<br><br><br> -->
+
+<!-- <div class="jumbotron shadow bg-dark"  style="padding: 100px;"> -->
+  
+  <!-- <div class="card shadow bg-dark float-right" style="padding: 10px;"><img src="image1.jpg" class="img-thumbnail" width="300" height="80" ></div> -->
+   <!-- <p class="text-justify lead  text-white"><b>A stock exchange</b>, securities exchange or bourse is a facility where stockbrokers 
+     and traders can buy and sell securities, such as shares of stock and bonds and other financial instruments.
+      Stock exchanges may also provide facilities for the issue and redemption of such securities and instruments 
+      and capital events including the payment of income and dividends Securities traded on a stock exchange include 
+      stock issued by listed companies, unit trusts, derivatives, pooled investment products and bonds. Stock exchanges 
+      often function as "continuous auction" markets with buyers and sellers consummating transactions via open outcry 
+      at a central location such as the floor of the exchange or by using an electronic trading platform.
+   </p><p class="text-justify lead  text-white">To be able to trade a security on a certain stock exchange, the security must be listed there. Usually, 
+     there is a central location at least for record keeping, but trade is increasingly less linked to a physical place,
+      as modern markets use electronic communication networks, which give them advantages of increased speed and reduced
+       cost of transactions. Trade on an exchange is restricted to brokers who are members of the exchange. In recent years,
+        various other trading venues, such as electronic communication networks, alternative trading systems and "dark pools" 
+        have taken much of the trading activity away from traditional stock exchanges.</p></div> -->
+        <div class="container-fluid"> 
+           <div>
+    <router-outlet></router-outlet>
+  </div>
+<!-- <footer class="page-footer font-small blue" style="padding-top: 10%;">
+  <div class="footer-copyright text-center py-3 bg-dark text-white mb-3">© 2020 Copyright:
+    Jagadam
+  </div></footer> -->
+ 
+
+</div>
+</body>
+</html>
