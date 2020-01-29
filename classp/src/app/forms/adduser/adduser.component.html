@@ -1,0 +1,32 @@
+<div class="col-md-6">
+    <h2 class="text-center">Add Course</h2>
+    <form [formGroup]="addUser" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <input type="number" formControlName="id" placeholder="Course Id " name="id" class="form-control" id="courseId">
+        
+            
+          </div>
+     
+      <div class="form-group">
+        <input type="text" formControlName="name" placeholder="Enter Your Name" name="name" class="form-control" id="username">
+      
+          </div>
+     
+       <div class="form-group">
+        <input type="email" formControlName="email" placeholder="Enter Your Mail" name="Mail id" class="form-control" id="Mail">
+       </div>
+     
+         
+      
+       <div class="form-group">
+        <input type="tel" formControlName="phone" placeholder="Enter your mobile number" name="phone" class="form-control" id="ph">
+        
+       </div>
+  
+  
+  
+      <button class="btn btn-success" (click)="addUsers()" [disabled]="!addUser.valid">Add User</button>
+    </form>
+  </div>
+  
+  
