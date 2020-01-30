@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 654,
+      "username": "kings jagadam",
+      "password": "Jagadam@1441",
+      "reenterpass": "Jagadam@1441",
+      "contact": "9876543214",
+      "email": "JagadamSairam@gmail.com",
+      "cemail": "JagadamSairam@gmail.com"
+    },
+    {
+      "id": "25421",
+      "username": "jagadamgsffree",
+      "password": "jahagafadam",
+      "reenterpass": "hagafadaj",
+      "contact": "516522222",
+      "email": "jahgsfad@gmail.com",
+      "cemail": "gafadam@gmail.com"
+    }
+  ]
+}
