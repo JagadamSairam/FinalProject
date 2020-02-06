@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home</title>
+  
+
+ 
+</head>
+<body> 
+   <header>
+<div class="jumbotron" style="padding: 1% ;  background: burlywood; overflow: -moz-hidden-unscrollable;">
+  <h1 class="text-center"  style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Stock Market Exchange</h1>
+</div>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-md navbar-light bg-dark">
+     
+       <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+      <ul class="navbar-nav text-center">
+        <div class="container">
+          <li class="nav-item"><a type="button" style="float:let;" routerLink='mainlog' class="btn btn-primary">Login</a></li>
+        </div>
+        <li class="nav-item"style="padding-left: 10px;" ><a href="#">Home</a></li>
+        <li class="nav-item " style="padding-left: 20px;"><a routerLink="registration">NewUser</a></li>
+        <li class="nav-item" style="padding-left: 30px;"><a routerLink="About">About</a></li>
+        
+        <!-- <li class="nav-item" style="padding-left: 30px;"><a routerLink="userslist">UserList</a></li> -->
+      </ul>
+    </nav>
+  </div>
+
+       <div class="container-fluid"> 
+           <div style="min-height: 70vh;">
+
+
+            <!-- <div *ngIf="isAdmin">
+              <app-userslist></app-userslist>
+            </div>
+            <div *ngIf="!isAdmin"> -->
+              <router-outlet></router-outlet>
+            <!-- </div> -->
+   
+  </div>
+ 
+
+</div>
+</header>
+
+<footer class="page-footer font-small blue" >
+  <div class="footer-copyright text-center py-3 bg-dark text-white mb-3">© 2020 Copyright:
+    Jagadam
+  </div></footer>
+
+</body>
+</html>

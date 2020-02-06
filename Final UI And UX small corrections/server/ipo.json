@@ -1,0 +1,17 @@
+{
+    "ipo" : [
+        {
+            "id" : 234,
+            "companyname" : "Cognizant",
+            "stockexchange" : 9027662893,
+            "pricepershare" :  7264368276567,
+            "shares" : 20 ,
+            "address" : "Karapakam",
+            "city" : "chennai",
+            "state" : "tamilnadu",
+            "pincode" : 522001,
+            "date" : "20-05-2019"
+        }
+    ]  
+
+}

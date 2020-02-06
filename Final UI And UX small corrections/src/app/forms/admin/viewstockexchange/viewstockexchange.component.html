@@ -1,0 +1,25 @@
+
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>Stock Exchange</th>
+        <th>Brief</th>
+        <th>Contact Adress </th>
+        <th>Remarks</th>
+        <th>Actions</th>
+    </tr>
+    
+    <tr *ngFor=" let st of Stock">
+        <td>{{st.id}}</td>
+        <td>{{st.stockexchange}}</td>
+        <td>{{st.brief}}</td>
+        <td>{{st.contactadress}}</td>
+        <td>{{st.remarks}}</td>
+      
+        <td><button class="btn btn-primary" (click)="update(st)"> Update </button>
+        <button class="btn btn-danger" (click)="delete(st)"> Delete </button></td>
+    </tr>
+</table>
+<div class="row justify-content-center">
+    <button class="btn btn-primary" routerLink='/addstockexchange'> Add New StockExchange </button>
+    </div>

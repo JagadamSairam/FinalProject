@@ -1,0 +1,25 @@
+
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>CompanyName</th>
+        <th>StockExchange</th>
+        <th>Price per Share </th>
+        <th>Shares</th>
+        <th>Date</th>
+        <th>Remarks</th>
+        
+    </tr>
+    <tr *ngFor=" let user of addIpo">
+        <td>{{user.id}}</td>
+        <td>{{user.companyname}}</td>
+        <td>{{user.stockexchange}}</td>
+        <td>{{user.pricepershare}}</td>
+        <td>{{user.shares}}</td>
+        
+        <td>{{user.email}}</td>
+        <td>{{user.cemail}}</td>
+        
+
+    </tr>
+</table>
